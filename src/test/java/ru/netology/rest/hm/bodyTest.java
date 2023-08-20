@@ -19,7 +19,7 @@ public class bodyTest {
 
                 .then()
                 .statusCode(200)
-                .body("data",equalTo("великолепный"));
+                .body("data",equalTo("gorgeous"));
     }
 
 }
