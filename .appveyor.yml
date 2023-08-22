@@ -1,4 +1,4 @@
-image: Ubuntu
+image: Ubuntu2004
 
 stack: jdk 11
 
@@ -9,6 +9,7 @@ branches:
 build: off
 
 install:
+
   - chmod +x gradlew
 
 build_script:
